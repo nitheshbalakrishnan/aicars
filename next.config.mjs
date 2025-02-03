@@ -21,6 +21,8 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
+  basePath: '/aicars', // Replace 'aicars' with your repository name
 }
 
 mergeConfig(nextConfig, userConfig)
